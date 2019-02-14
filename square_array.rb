@@ -8,3 +8,15 @@ end
     
   # your code here
 end
+
+
+def square_array(array)
+  
+array.collect do |element| 
+  element**2
+end
+
+return array    
+    
+  # your code here
+end
