@@ -12,9 +12,7 @@ end
 
 def square_array(array)
   
-array.collect do |element| 
-  element**2
-end
+array.collect {|element| element**2 }
 
 return array    
     
