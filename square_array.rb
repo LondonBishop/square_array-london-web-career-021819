@@ -1,8 +1,10 @@
 def square_array(array)
+tempArry = [] 
   
 array.each do |element| 
-  element = element * 2
+  tempArry.push(element * 2)
 end
+  return tempArry    
     
   # your code here
 end
