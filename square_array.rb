@@ -1,9 +1,11 @@
 
-def square_array(array)
+def square_array_old(array)
+tempArry = [] 
   
-array.collect {|element| element**2 }
-
-return array    
+array.each do |element| 
+  tempArry.push(element**2)
+end
+  return tempArry    
     
   # your code here
 end
