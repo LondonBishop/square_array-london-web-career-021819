@@ -2,7 +2,7 @@ def square_array(array)
 tempArry = [] 
   
 array.each do |element| 
-  tempArry.push(element**=)
+  tempArry.push(element*element)
 end
   return tempArry    
     
