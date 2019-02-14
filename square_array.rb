@@ -1,5 +1,5 @@
 
-def square_array_old(array)
+def square_array(array)
 tempArry = [] 
   
 array.each do |element| 
